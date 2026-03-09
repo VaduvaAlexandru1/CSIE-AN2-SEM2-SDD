@@ -1,0 +1,7 @@
+﻿  Main.c
+C:\Facultate\An2\Sem2\SDD\Seminarii\Seminar4\Seminar4\Main.c(19,2): warning C4091: 'typedef ': ignored on left of 'Nod' when no variable is declared
+C:\Facultate\An2\Sem2\SDD\Seminarii\Seminar4\Seminar4\Main.c(136,3): warning C4033: 'pretMaxim' must return a value
+C:\Facultate\An2\Sem2\SDD\Seminarii\Seminar4\Seminar4\Main.c(162,66): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Facultate\An2\Sem2\SDD\Seminarii\Seminar4\Seminar4\Main.c(163,63): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Facultate\An2\Sem2\SDD\Seminarii\Seminar4\Seminar4\Main.c(148,1): warning C4715: 'pretMaxim': not all control paths return a value
+  Seminar4.vcxproj -> C:\Facultate\An2\Sem2\SDD\Seminarii\Seminar4\x64\Debug\Seminar4.exe
