@@ -34,17 +34,28 @@ void outCarte(Carte c) {
 int isEmpty(Nod* head) {
 	return head == NULL;
 }
-void Pop(Nod** stack) {
-	if (isEmpty(*stack)) return;
 
-	Nod* aux = *stack;
-	*stack = (*stack)->next;
+/// <summary>
+/// Deleting an element from a stack or a queue
+/// </summary>
+/// <param name="head"> : The head of stack or queue</param>
+void Pop(Nod** head) {
+	if (isEmpty(*head)) return;
+
+	Nod* aux = *head;
+	*head = (*head)->next;
 
 	free(aux->carte.titlu);
 	free(aux);
 }
+//gave an alias to pop as dequeue because in the scope of a stack and a queue these operations have the save code
 #define Dequeue Pop
 
+/// <summary>
+/// Get a look at the info from head without deleting
+/// </summary>
+/// <param name="head"> : The head of the list (stack/queue)></param>
+/// <returns>The info struct (Carte in this case)</returns>
 Carte Peek(Nod* head) {
 	if (isEmpty(head)) {
 		printf("Stack gol!\n");
@@ -52,7 +63,10 @@ Carte Peek(Nod* head) {
 	}
 	return head->carte;
 }
-
+/// <summary>
+/// Prints a list
+/// </summary>
+/// <param name="head"> : The head of the list</param>
 void print(Nod* head) {
 	while (head != NULL) {
 		outCarte(Peek(head));
@@ -61,6 +75,12 @@ void print(Nod* head) {
 }
 
 // stack functions
+
+/// <summary>
+/// Adding an element into a stack
+/// </summary>
+/// <param name="stack"> : The head of the stack></param>
+/// <param name="c"> : Info to add</param>
 void Push(Nod** stack , Carte c) {
 	Nod* newHead = (Nod*)malloc(sizeof(Nod));
 	newHead->carte = c;
@@ -69,6 +89,12 @@ void Push(Nod** stack , Carte c) {
 }
 
 //queue functions
+
+/// <summary>
+/// Adding an element into a queue
+/// </summary>
+/// <param name="queue"> : The head of the queue</param>
+/// <param name="c"> : Info to add</param>
 void Enqueue(Nod** queue , Carte c) {
 	Nod* newNode = (Nod*)malloc(sizeof(Nod));
 	newNode->carte = c;
@@ -87,7 +113,7 @@ void Enqueue(Nod** queue , Carte c) {
 }
 
 int main() {
-	printf("---------IMPLEMENTARE STACK---------");
+	printf("---------STACK TESTING---------");
 	Nod* stack = NULL;
 
 	Push(&stack, initCarte("Robinson Crusoe", 250, 30.4));
@@ -96,7 +122,7 @@ int main() {
 	Pop(&stack);
 
 	print(stack);
-	printf("\n---------IMPLEMENTARE QUEUE---------");
+	printf("\n---------QUEUE TESTING---------");
 
 	Nod* queue = NULL;
 

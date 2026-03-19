@@ -1,8 +1,8 @@
 ﻿  Main.c
 C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(17,2): warning C4091: 'typedef ': ignored on left of 'Nod' when no variable is declared
-C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(51,3): warning C4013: 'exit' undefined; assuming extern returning int
-C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(93,49): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(94,56): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(103,52): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(104,59): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(52,3): warning C4013: 'exit' undefined; assuming extern returning int
+C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(94,49): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(95,56): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(104,52): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\Stack&Queue\Main.c(105,59): warning C4305: 'function': truncation from 'double' to 'float'
   Stack&Queue.vcxproj -> C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\Stack&Queue\x64\Debug\Stack&Queue.exe
