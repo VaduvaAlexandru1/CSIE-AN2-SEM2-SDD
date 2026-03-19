@@ -139,7 +139,6 @@ float pretMaxim(Nod* cap) {
 	Nod* aux = cap;
 	do {
 		if (pretMax < cap->info.pret) pretMax = cap->info.pret;
-		afisareCarte(cap->info);
 		cap = cap->next;
 	} while (aux != cap);
 
