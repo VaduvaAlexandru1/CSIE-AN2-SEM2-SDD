@@ -1,0 +1,5 @@
+﻿  Main.c
+C:\Facultate\An2\Sem2\SDD\Seminarii\Seminar7\Seminar7\Main.c(137,60): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Facultate\An2\Sem2\SDD\Seminarii\Seminar7\Seminar7\Main.c(138,57): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Facultate\An2\Sem2\SDD\Seminarii\Seminar7\Seminar7\Main.c(139,56): warning C4305: 'function': truncation from 'double' to 'float'
+  Seminar7.vcxproj -> C:\Facultate\An2\Sem2\SDD\Seminarii\Seminar7\x64\Debug\Seminar7.exe
