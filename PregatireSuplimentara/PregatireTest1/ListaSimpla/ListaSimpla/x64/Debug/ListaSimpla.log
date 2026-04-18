@@ -1,0 +1,4 @@
+﻿  Main.c
+C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\PregatireTest1\ListaSimpla\ListaSimpla\Main.c(75,3): warning C4033: 'initListaSimpla' must return a value
+C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\PregatireTest1\ListaSimpla\ListaSimpla\Main.c(91,1): warning C4715: 'initListaSimpla': not all control paths return a value
+  ListaSimpla.vcxproj -> C:\Facultate\An2\Sem2\SDD\PregatireSuplimentara\PregatireTest1\ListaSimpla\x64\Debug\ListaSimpla.exe
