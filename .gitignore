@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore Visual Studio temp files
 .vs/
 
@@ -6,5 +7,11 @@ bin/
 obj/
 
 # User-specific files
+=======
+# Ignore all Visual Studio temporary files in any subfolder
+.vs/
+bin/
+obj/
+>>>>>>> e36a78de3e70752406aadb09b615dddb0ad279f4
 *.user
 *.suo
