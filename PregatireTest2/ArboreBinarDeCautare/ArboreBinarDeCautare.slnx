@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ArboreBinarDeCautare/ArboreBinarDeCautare.vcxproj" Id="ce872fa8-ce18-47e1-9e23-06b76a76a644" />
+</Solution>
